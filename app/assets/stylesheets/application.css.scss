@@ -21,10 +21,10 @@
 }
 
 .home-callout {
-
+  
   margin-top: -20px;
-  padding-top: 250px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 500px;
   padding-left: 0px;
   padding-right: 0px;
   background-image:url('StockSnap_CLD6T4J9VZ.jpg');
@@ -39,4 +39,19 @@
   border: none;
 }
 
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default .navbar-brand:hover{
+  color: white;
+  opacity: 0.75;
+}
 
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: white;
+  opacity: 0.75;
+}
