@@ -23,6 +23,7 @@
   
 }
 
+// Home Page styles
 .home-callout {
   
   margin-top: -20px;
@@ -39,25 +40,26 @@
  
   }
 }
+
+// Nav Styles
 .navbar {
   border: none;
 }
 
 .navbar-default .navbar-brand {
   color: white;
-  font-size: 28px
+  font-size: 28px;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
 }
-.navbar-default .navbar-brand:hover{
-  color: white;
-  opacity: 0.75;
-}
-
 .navbar-default .navbar-nav > li > a {
   color: white;
   font-size: 18px;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
 }
 
-.navbar-default .navbar-nav > li > a:hover{
-  color: white;
-  opacity: 0.75;
-}
