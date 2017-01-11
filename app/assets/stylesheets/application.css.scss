@@ -29,15 +29,16 @@
 
 // Home Page styles
 .home-callout {
-  
+  background-color: #36373b;
   margin-top: -20px;
   padding-top: 25px;
-  padding-bottom: 500px;
+  padding-bottom: 25px;
   padding-left: 0px;
   padding-right: 0px;
-  background:image-url('room2.jpg');
-  background-repeat:no-repeat;
-  background-position:center;
+  
+  //background:image-url('room2.jpg');
+  //background-repeat:no-repeat;
+  //background-position:center;
  //background-color: #535459;
   h1, h3 {
     color: white;
@@ -93,4 +94,14 @@
 
 .alert-notice {
   display: none;
+}
+
+.home-signup-links {
+  padding-top: 100px;
+  background:image-url('room2.jpg');
+  width: 100%;
+  padding-bottom: 150px;
+  background-repeat:no-repeat;
+  background-position:center;
+  //padding-top: 200px;
 }
