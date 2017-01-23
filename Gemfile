@@ -46,8 +46,12 @@ gem 'stripe', '1.48.0'
 # Use Figaro for ENV variables (hides Strip API keys from Github and Heroku)
 gem 'figaro', '1.1.1'
 
+gem 'bootstrap-select-rails'
+
+gem 'bootstrap-multiselect-rails'
+
 group :development, :test do
-  # Use sqlite3 as the database for the Active Record
+  # Use sqlite3 as the database for the Active Recordbundle 
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri

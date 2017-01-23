@@ -12,7 +12,10 @@
  *
  *= require_tree .
  *= require_self
+*= require bootstrap-multiselect
  */
+
+ 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
@@ -116,3 +119,12 @@
   border-color: rgba(255, 255, 255, 0.5);
   margin-top: -14px;
 }
+
+.num-bedrooms-header{
+  font-weight: bold;
+}
+
+//image.picker BEGIN
+
+
+// image.picker END
